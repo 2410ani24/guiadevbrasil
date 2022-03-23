@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+          int firstnumber,secoundnumber,thirdnumber,sum;
+          cout<<"enter three integers:";
+          cin>>firstnumber>>secoundnumber>>thirdnumber;
+          sum=firstnumber+secoundnumber+thirdnumber;
+          cout<<"sum is = "<<sum;
+    return 0;
+}
+
+output
+enter three integers:24
+4
+5
+sum is = 33
